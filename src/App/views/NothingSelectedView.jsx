@@ -16,7 +16,7 @@ import FormLabel from '@mui/material/FormLabel';
 import HorizontalLinearStepper from './wizard';
 import HorizontalNonLinearStepper from './wizard';
 
-import MapContainer from "./Map";
+// import MapContainer from "./Map";
 
 
 
@@ -36,7 +36,7 @@ export const NothingSelectedView = () => {
 
   return (
     <>
-    <MapContainer />
+    {/* <MapContainer /> */}
     < HorizontalNonLinearStepper />
     <Box
         sx={{

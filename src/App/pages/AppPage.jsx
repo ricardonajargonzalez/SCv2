@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import { AppLayout } from "../layout/AppLayout";
-import { NothingSelectedView } from "../views/";
+import { NothingSelectedView2,NothingSelectedView } from "../views/index";
 
 
 
@@ -8,7 +8,7 @@ import { NothingSelectedView } from "../views/";
 export const AppPage = () => {
   return (
     <AppLayout>
-      <NothingSelectedView />
+      <NothingSelectedView2 />
     </AppLayout>
   )
 }
