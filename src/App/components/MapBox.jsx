@@ -8,44 +8,34 @@ mapboxgl.accessToken = "pk.eyJ1IjoicmljYXJkb25hamFyIiwiYSI6ImNpcXpwdzRodTAybWdmc
 
 const MapBox = () => {
 
-    const geojson = {
-        'type': 'FeatureCollection',
-        'features': [
-        {
-        'type': 'Feature',
-        'properties': {
-        'message': 'Foo',
-        'iconSize': [60, 60]
-        },
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-66.324462, -16.024695]
-        }
-        },
-        {
-        'type': 'Feature',
-        'properties': {
-        'message': 'Bar',
-        'iconSize': [50, 50]
-        },
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-61.21582, -15.971891]
-        }
-        },
-        {
-        'type': 'Feature',
-        'properties': {
-        'message': 'Baz',
-        'iconSize': [40, 40]
-        },
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-63.292236, -18.281518]
-        }
-        }
+    const geojson = 
+    {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-110.9179959,27.9556622]
+                },
+                "properties": {
+                    "title": "Abarrey - Guaymas Norte",
+                    "description": "Mar del Nte. s/n, Luis Donaldo Colosio, 85425 Heroica Guaymas, Son."
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-110.9086377,27.8967757] 
+                },
+                "properties": {
+                    "title": "Abarrey - Guaymas",
+                    "description": "Carretera al varadero #1507-A, Ramón Gil Samaniego, 85470 Heroica Guaymas, Son."
+                }
+            }
         ]
-        };
+    };
 
     const mapContainer = useRef(null);
     const map = useRef(null);

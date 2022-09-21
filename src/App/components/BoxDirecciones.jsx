@@ -1,42 +1,15 @@
-//yarn add mapbox-gl
-import { React, useRef, useEffect, useState } from 'react';
-
-import { Grid,Box  } from "@mui/material";
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import Divider from '@mui/material/Divider';
-import { StarOutlined  } from "@mui/icons-material";
 
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import HorizontalNonLinearStepper from '../components/wizard';
+import { Box  } from "@mui/material";
 
-// import MapContainer from "./Map";
-
-
-
-
-//  const style = {
-//   width: '100%',
-//   maxWidth: 360,
-//   bgcolor: 'background.paper',
-// };
-
-
-
-
-
-export const NothingSelectedView = () => {
-
-
+export const BoxDirecciones = () => {
   return (
     <>
-    {/* <MapContainer /> */}
-    {/* <Box
+    <Box
         sx={{
          bgcolor: 'rgb(245, 245, 245)',
           position: 'absolute',
@@ -60,11 +33,7 @@ export const NothingSelectedView = () => {
             <FormControlLabel value="BarBerShop Saulihno" control={<Radio />} label="BarBerShop Saulihno" />
           </RadioGroup>
       </FormControl>
-    </Box>  */} 
+    </Box>
     </>
-
   )
-
-
-
 }
